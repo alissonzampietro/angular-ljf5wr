@@ -2,6 +2,8 @@
 
 <div *ngFor="let product of products">
   <h3>{{ product.name }}</h3>
+
+  <a [title]="product.name + ' details'"></a>
 </div>
 
 <!-- 
